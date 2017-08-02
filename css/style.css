@@ -1,3 +1,6 @@
+.row {
+    margin: 0;
+}
 .button {
     text-align: center;
     margin: 0 auto;
@@ -12,7 +15,6 @@
     cursor: pointer;
     transition: 0.2s;
 }
-
 .button:hover {
     background-color: #b3b3ff;
 }
@@ -21,6 +23,8 @@
     text-align: center;
     font-weight: bold;
     color: blue;
+    margin: 0;
+    padding: 15px;
 }
 
 .header {
@@ -61,12 +65,13 @@
     background-color: black;
     color: white;
 }
-
+.hait {
+    height: 500px;
+}
 .info img {
     margin-left: -60px;
     height: 550px;
 }
-
 .left-side {
     padding: 10px;
     z-index: 2;
@@ -76,6 +81,7 @@
     margin-left: -100px;
     height: 550px;
     background-image: url('../img/Imran Rana 1.png');
+    background-repeat: no-repeat;
     background-size: 100%;
 }
 
@@ -99,14 +105,14 @@
 .images-fl {
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
+    align-items: baseline;
     justify-content: space-between;
 }
 
 .img-comp {
     cursor: pointer;
     width: 19%;
-    height: 90px;
+    height: 70px;
 }
 
 .img-comp img {
@@ -246,7 +252,7 @@ form {
     line-height: 30px;
 }
 
-@media (max-width: 970px) {
+@media (max-width: 992px) {
     .header-top {
         text-align: center;
     }
@@ -257,19 +263,34 @@ form {
         margin-bottom: 20px;
     }
     .image2 {
-        margin-left: -100px;
-        height: 550px;
-        background-image: url('../img/Imran Rana 1.png');
-        background-size: 100%;
+        width: 400px;
+        margin: 0 auto;
+        height: 450px;
     }
-    .info {}
+    .info {
+        min-height: 810px; 
+        height: 100%;
+    }
+    .left-side {
+        z-index: 1;
+        height: 500px;
+    }
+    .left-side p {
+        width: 80%;
+    }
+    .hait {
+        height: 950px;
+    }
 }
 
-@media (max-width: 750px) {
+@media (max-width: 768px) {
     .img-comp {
         width: 30%;
     }
     .images-fl {
         justify-content: center;
+    }
+    .workwith {
+        min-height: 530px;
     }
 }
