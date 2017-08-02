@@ -1,0 +1,37 @@
+.button {
+    text-transform: uppercase;
+    width: 120px;
+    height: 25px;
+    line-height: 25px;
+    font-size: 14px;
+    background-color: lightblue;
+    border-radius: 5px;
+    color: white;
+}
+.header {
+    height: 504px;
+}
+.header-top {
+    padding-top: 20px;
+    height: 100px;
+    color: #555;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+.header-bottom {
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+}
+.header-bottom img {
+    width: 500px;
+}
+.header-bottom p {
+    width: 90%;
+    margin: 150px auto 20px auto;
+    font-size: 18px;
+}
+.header-bottom .button {
+    font-weight: normal;
+    margin: 0 auto;
+}
