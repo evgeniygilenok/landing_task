@@ -1,15 +1,22 @@
 .button {
+    text-align: center;
+    margin: 0 auto;
     text-transform: uppercase;
-    width: 120px;
+    width: 150px;
     height: 25px;
     line-height: 25px;
-    font-size: 14px;
+    font-size: 13px;
     background-color: lightblue;
     border-radius: 5px;
     color: white;
 }
+.heading {
+    text-align: center;
+    font-weight: bold;
+    color: blue;
+}
 .header {
-    height: 504px;
+    min-height: 500px;
 }
 .header-top {
     padding-top: 20px;
@@ -24,7 +31,7 @@
     font-weight: bold;
 }
 .header-bottom img {
-    width: 500px;
+    height: 400px;
 }
 .header-bottom p {
     width: 90%;
@@ -34,4 +41,49 @@
 .header-bottom .button {
     font-weight: normal;
     margin: 0 auto;
+}
+.info {
+    min-height: 550px;
+    background-color: black;
+    color: white;
+}
+.info img {
+    margin-left: -60px; 
+    height: 550px;
+}
+.left-side {
+    padding: 10px;
+    z-index: 2;
+}
+.image2 {
+    margin-left: -100px;
+    height: 550px;
+    background-image: url('../img/Imran Rana 1.png');
+    background-size: 100%;
+}
+.info p {
+    font-size: 17px;
+    margin: 20px auto;
+}
+.workwith {
+    text-align: center;
+    background-color: #ccccff;
+    min-height: 350px;
+}
+.companies {
+    min-height: 100px;
+}
+.img-comp {
+    width: 20%;
+}
+.companies img {
+    margin: 15px 0;
+    max-height: 55px;
+    max-width: 90px;
+}
+.work-with {
+    margin: 30px auto;
+}
+.book {
+    min-height: 300px;
 }
